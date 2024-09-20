@@ -1,0 +1,39 @@
+body {
+    background: rgb(30, 31, 95);
+    color: rgb(241, 244, 248);
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(247, 246, 248);
+    padding: 40px;
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    background: rgb(30, 31, 95);
+    color:rgb(253, 249, 249);
+    font-size: 15px;
+}
+.titulo-video {
+    margin-right: 4%;
+}
+img{
+    height: 200px;
+}
+.fila-videos{
+    display :flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fila-videos img {
+    height : 200px;
+    overflow-x : auto;
+    gap : 20px;
+}
